@@ -1,0 +1,7 @@
+[submodule "GraphMat"]
+	path = GraphMat
+	url = https://github.com/narayanan2004/GraphMat
+[submodule "graph500"]
+	path = graph500
+	url = https://github.com/graph500/graph500
+	branch = master
