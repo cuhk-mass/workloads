@@ -5,4 +5,5 @@ WORKDIR /workloads
 RUN bash graph500.sh
 RUN bash GraphMat.sh
 RUN bash spec.sh
-ENTRYPOINT ["bash -c source /opt/intel/oneapi/setvars.sh && bash"]
+ENTRYPOINT ["/workloads/entrypoint.sh"]
+CMD ["bash"]
